@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="^A+SmA*Sgc,knnS(3bob">mySprite</variable><variable type="KIND_SpriteKind" id="E*u8c23!.BNhuy?XQ,=N">Player</variable><variable type="KIND_SpriteKind" id="~MF06sdaIP0,~GO0}DGV">Projectile</variable><variable type="KIND_SpriteKind" id="mJw7Yk2=y7B?`:CN*,V9">Food</variable><variable type="KIND_SpriteKind" id="!V%krHInIav]lH#.xYn!">Enemy</variable></variables><block type="pxt-on-start" id="-RCydy!Vp)p[i9M!~mhD" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="}Fe.le?LCo`wHFX7)_`M"><field name="VAR" id="^A+SmA*Sgc,knnS(3bob">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="lO^PUj~F;z_EV`9IXwaQ"><value name="img"><shadow type="screen_image_picker" id="SJ`I:9;O)i}T2+Uef-Zb"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 3 3 3 3 3 3 . . . 
+. . . . . . 3 3 3 . 3 . . . . . 
+. . . . . . . . 3 3 . . . . . . 
+. . . . . . 3 3 . . . . . . . . 
+. . . . . . 3 . . . . . . . . . 
+. . . . . . . 3 . . . . . . . . 
+. . . . . . . . . 3 3 . . . . . 
+. . . . . . 3 3 3 3 . . . . . . 
+. . . . . 3 3 3 3 3 . . . . . . 
+. . . . 3 3 3 3 3 . . . . . . . 
+. . . . 3 3 . . . . . . . . . . 
+. . . 3 3 . . . . . . . . . . . 
+. . . . 3 3 . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="]w/Vw5=g9$g}i^6VcxiB"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="u2ckxCr@qgesS$`$?k=;"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="/rVRF7f^`FQ7^(+#^^;."><field name="VAR" id="^A+SmA*Sgc,knnS(3bob">mySprite</field></block></value><next><block type="tilemap_editor" id="e}cER9m4miks]p@B4YA2"><field name="tilemap">tilemap`niveau1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"niveau1"}}</data></block></next></block></next></block></statement></block></xml>
